@@ -79,6 +79,7 @@
     font-size: 20px;
     border: solid 2px #FF500B;
     color: white;
+    cursor: pointer;
 }
 
 .check-prices{
@@ -88,6 +89,7 @@
     color: white;
     font-size: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -411,3 +413,74 @@ h4 a {
     text-decoration: none;
 }
 
+
+.price-card {
+    max-width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(135deg, #FF500B, #ff814d);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+.price-header {
+    padding: 30px 20px 20px;
+}
+
+.price-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.price-header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.price-body {
+    background: white;
+    color: #333;
+    padding: 30px 20px;
+}
+
+.price-body h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #FF500B;
+}
+
+.price-body h1 span {
+    font-size: 18px;
+    color: #555;
+}
+
+.price-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.price-body ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.price-footer {
+    padding: 20px;
+}
+
+.offers-title{
+    margin-top: 100px;
+    text-align: center;
+}

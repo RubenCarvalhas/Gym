@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Our Gym</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="styles/styles_responsive.css">
+    <link rel="stylesheet" href="../styles/styles_responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Bad+Script&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-    <title>HomePage</title>
+    <link rel="stylesheet" href="../styles/style_offers.css">
 </head>
 <body>
     
@@ -37,139 +38,62 @@
     <div class="left-side-nav">
         <ul>
             <li onclick="window.location.href='../index.html'">Home</li>
-            <li onclick="window.location.href='pages/meet_the_team.html'">Activities</li>
-            <li onclick="window.location.href='pages/our_gym.html'">Meet us</li>
+            <li onclick="window.location.href='meet_the_team.html'">Activities</li>
+            <li onclick="window.location.href='our_gym.html'">Meet us</li>
         </ul>
     </div>
 </div>
 
 
-<section>
-
-    <div class="image-header">
-        <div class="image-content">
-            <h1>Work it out!</h1>
-            <h3>Unleash Your Potential</h3>
-            <div class="buttons">
-                <button class="contact-us" onclick="document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });">
-                    Contact Us
-                </button>
-                <button class="check-prices" onclick="window.location.href='pages/prices.html'"> Check Offers</button>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="highlights">
-        <h1>Why our gym?</h1>
-        <div class="highlights-content">
-    <div class="cards-container">
-        <div class="card">
-            <img src="images/dumbell.png" alt="">
-            <div class="card-content">
-                <h3>Modern Equipment</h3>
-                <p>We have incredibly new and highly maintenanced equipment</p>
-                <a href="/pages/our_gym.html" class="btn">Come experiment</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/trainer.png" alt="">
-            <div class="card-content">
-                <h3>Qualified trainers</h3>
-                <p>Our trainers are ready to help you achieve your dream goals.</p>
-                <a href="pages/meet_the_team.html" class="btn">Check our trainers</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/plan.png" alt="">
-            <div class="card-content">
-                <h3>Unique Offer</h3>
-                <p>If you're a first time partner, get a whole personalized plan.</p>
-                <a href="pages/our_gym.html" class="btn">Come meet us</a>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section>
+<section class="section-out-gym">
     <div class="offers-title">
-        <h1>Membership</h1>
-        <h3>One price, all access — no hidden fees.</h3>
+        <h1>Our gym</h1>
     </div>
 
-    <div class="price-card">
-        <div class="price-header">
-            <h2>All-Inclusive Pass</h2>
-            <p>Unlimited access to all classes, machines and facilities</p>
+    <div class="norms">
+        <div class="norm-card">
+            <i class="fas fa-tshirt"></i>
+            <p>Use proper sports clothing and indoor shoes.</p>
         </div>
-
-        <div class="price-body">
-            <h1>€39<span>/month</span></h1>
-            <ul>
-                <li>✔ Full access to the gym 7 days a week</li>
-                <li>✔ All group classes included</li>
-                <li>✔ Personal trainer support</li>
-                <li>✔ Free locker & shower access</li>
-                <li>✔ Cancel anytime</li>
-            </ul>
+        <div class="norm-card">
+            <i class="fas fa-dumbbell"></i>
+            <p>Return weights and equipment to their place after use.</p>
         </div>
+        
+    </div>
 
+    <div class="norms">
+        <div class="norm-card">
+            <i class="fas fa-volume-down"></i>
+            <p>Respect others by keeping noise levels under control.</p>
+        </div>
+        <div class="norm-card">
+            <i class="fas fa-bottle-water"></i>
+            <p>Stay hydrated and take care of your personal safety.</p>
+        </div>
+        <div class="norm-card">
+            <i class="fas fa-clock"></i>
+            <p>Be mindful of time when using shared machines.</p>
+        </div>
     </div>
 </section>
 
+<section>
+<div class="come-meet">
+    <h1>Come meet us</h1>
 
-<section id="contact-section">
-    
-    <div class="interested">
-        <h1>Interested?</h1>
-    </div>
 
-    <div class="talk-to-us-panel">
-        <div class="talk-to-us-image">
-            <img src="images/trainer.jpg" alt="Form">
+    <div class="image-map">
+        <div class="left-side-image">
+            <img src="../images/mobility.jpg" alt="">
         </div>
-        <div class="talk-to-us-form">
-            <h2>Reach out!</h2>
-           <form action="https://formspree.io/f/mjkawpoz" method="POST">
-            <input type="hidden" name="_subject" value="Novo contacto do site!">
-            <input type="text" name="Name" placeholder="Your name" required>
-            <input type="email" name="Email" placeholder="Email Address" required>
-            <input type="number" name="PhoneNumber" placeholder="Phone Number">
-            <input type="text" name="Subject" placeholder="What are you looking for?">
-            <button type="submit">Send email</button>
-        </form>
+        <div class="right-side-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.5377867047396!2d-9.152174923407527!3d38.63651306205426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1935790f89a8f1%3A0xaece3bd2c52e236c!2sFitness%20Gym!5e0!3m2!1spt-PT!2spt!4v1759331893652!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-
-
-    <div class="scroller" data-animated="true" data-direction="left" data-speed="fast">
-    <ul class="tag-list scroller__inner">
-        <li>
-            <p>"Amazing service! Highly recommended."</p>
-            <h4>– Alex K.</h4>
-        </li>
-        <li>
-            <p>"Great experience, friendly staff."</p>
-            <h4>– Sarah L.</h4>
-        </li>
-        <li>
-            <p>"I achieved my goals faster than expected!"</p>
-            <h4>– John D.</h4>
-        </li>
-        <li>
-            <p>"Exceptional guidance and support."</p>
-            <h4>– Lisa M.</h4>
-        </li>
-        <li>
-            <p>"Amazing people at an awesome location."</p>
-            <h4>– Bennett J.</h4>
-        </li>
-    </ul>
 </div>
-
-
 </section>
+
 
 <section>
     <hr class="fancy-line">
@@ -199,9 +123,6 @@
 
     </div>
 </section>
-
-
-<script src="./js/main.js"></script>
-
+<script src="../js/main.js"></script>
 </body>
 </html>

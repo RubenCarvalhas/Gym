@@ -1,0 +1,70 @@
+.come-meet{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.norms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.norm-card {
+    background: #fff;
+    padding: 15px;
+    width: 400px; 
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.norm-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.norm-card i {
+    font-size: 32px; 
+    color: #FF500B;
+    margin-bottom: 10px;
+}
+
+.norm-card p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.image-map {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 40px ;
+}
+
+.left-side-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right-side-map iframe {
+    width: 100%;      
+    height: 450px;     
+    border: 0;
+    border-radius: 10px;
+}
+
+.section-out-gym h1{
+
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+
