@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/styles_responsive.css">
+    <link rel="stylesheet" href="style_price.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Bad+Script&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <title>HomePage</title>
@@ -54,7 +55,7 @@
                 <button class="contact-us" onclick="document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });">
                     Contact Us
                 </button>
-                <button class="check-prices" onclick="window.location.href='pages/prices.html'"> Check Offers</button>
+                <button class="check-prices" onclick="document.getElementById('price-section').scrollIntoView({ behavior: 'smooth' });"> Check Offers</button>
             </div>
         </div>
     </div>
@@ -92,7 +93,7 @@
 
 </section>
 
-<section>
+<section id="price-section">
     <div class="offers-title">
         <h1>Membership</h1>
         <h3>One price, all access — no hidden fees.</h3>
