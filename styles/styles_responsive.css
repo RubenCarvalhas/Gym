@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+    .talk-to-us-panel {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .talk-to-us-image img {
+        width: 100%;
+        height: auto; 
+    }
+
+     .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .footer h3 {
+        font-size: 24px;
+    }
+
+    .footer h4 {
+        font-size: 14px;
+    }
+
+
+    .left-side-nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 250px;
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 20px;
+        gap: 20px;
+        box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+        transition: right 0.3s ease;
+        z-index: 1001;
+    }
+
+    .left-side-nav ul,
+    .left-side-nav .contact-us {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .left-side-nav.active {
+        right: 0;
+    }
+
+    .left-side-nav ul li {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        color: #FF500B;
+    }
+
+    .hamburger.active i:before {
+        content: "\f00d"; 
+    }
+
+    .second-card{
+        border: 1px solid black;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .right-side-nav svg {
+        width: 200px; 
+        height: auto; 
+    }
+}
